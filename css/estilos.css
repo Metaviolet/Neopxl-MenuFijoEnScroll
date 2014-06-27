@@ -1,0 +1,136 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0 auto 0;
+    width: 100%;
+    background: url(../img/congruent_pentagon.png) repeat;
+}
+body h2 {
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 12px;
+}
+body p {
+    margin-top: 8px;
+}
+body ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.banner {
+    background-color: #000;
+    height: 80px;
+    padding: 5px;
+    width: 100%;
+    color: #A9EEE8;
+}
+.header {
+    background-color: #24C9AE;
+    height: 61px;
+    padding: 10px;
+    width: 100%;
+    color:#fff;
+}
+
+
+#menu_small {
+    display: none;
+}
+
+div.header ul {
+   list-style-type: none;
+    height: 61px;
+    width: 390px;
+    position: fixed;
+    right: 0px;
+    font-size: 12px;
+}
+
+div.header ul#menu_small {
+   list-style-type: none;
+    height: 61px;
+    width: 267px;
+    position: fixed;
+    right: 0px;
+}
+
+div.header ul li {
+   float: left;
+}
+
+div.header li a {
+text-decoration: none;
+color: #fff;
+display: block;
+line-height: 14px;
+margin-right: 16px;
+/* border-right: 1px solid white; */
+padding-right: 29px;
+}
+
+div.header li  img {
+display: block;
+margin: 0 auto;
+}
+
+
+.content {
+    width:80%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: rgba(255,255,255,0.7);
+}
+.content li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #000;
+    padding: 5px;
+    color: #A9EEE8;
+}
+
+div.footer h2 {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#left {
+    width: 69%;
+    margin-left: 1%;
+}
+#right {
+   width: 26%;
+   margin-left: 2%;
+   margin-top: 109px;
+}
+
+#project_info {
+ font-size: 0.7em;
+}
+
+#project_info a {
+color: #1498A3;
+text-decoration: none;
+}
+
+#project_info ul {
+list-style-type: none;
+position: fixed;
+width: 281px;
+right: -5px;
+top: 4px;
+}
+
+#project_info ul a{
+color: #11C3D3;
+text-decoration: none;
+float: left;
+padding: 10px;
+background: white;
+border-right: 1px solid #565656;
+}
