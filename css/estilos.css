@@ -19,7 +19,7 @@ body ul {
 }
 .banner {
     background-color: #000;
-    height: 80px;
+    height: 130px;
     padding: 5px;
     width: 100%;
     color: #A9EEE8;
@@ -109,28 +109,3 @@ div.footer h2 {
    margin-top: 109px;
 }
 
-#project_info {
- font-size: 0.7em;
-}
-
-#project_info a {
-color: #1498A3;
-text-decoration: none;
-}
-
-#project_info ul {
-list-style-type: none;
-position: fixed;
-width: 281px;
-right: -5px;
-top: 4px;
-}
-
-#project_info ul a{
-color: #11C3D3;
-text-decoration: none;
-float: left;
-padding: 10px;
-background: white;
-border-right: 1px solid #565656;
-}
